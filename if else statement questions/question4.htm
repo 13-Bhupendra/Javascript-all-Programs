@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--WAP TO PRINT GRADES OF STUDENT BASED ON THEIR PERCENTAGE.-->
+
+    <script>
+               let a = prompt("Enter a number : ");
+
+                let grade = parseInt(a);
+
+                if(grade>=90)
+                {
+                    document.write('The student get A1 grade ! ');
+                }      
+                else  if(grade>=80 && grade<90 )
+                {
+                    document.write('The student get A2 grade !');
+                }
+                else  if(grade>=70 && grade<80 )
+                {
+                    document.write('The student get A3 grade !');
+                }
+                else  if(grade>=35 && grade<70)
+                {
+                    document.write('The student passes the exam !');
+                }
+                else
+                {
+                    document.write("Student was failed in exam ! ")
+
+                }
+    </script>
+    
+</body>
+</html>
