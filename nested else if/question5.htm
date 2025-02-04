@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--FIND THE MAXIMUM  NUMBER FROM 5 NUMBERS-->
+
+    <script>
+
+        let a =prompt('Enter a value of A : '); 
+        let b =prompt('Enter a value of B : '); 
+        let c = prompt('Enter a value of C : '); 
+        let d = prompt('Enter a value of D : '); 
+        let e = prompt('Enter a value of E : '); 
+
+        let p = parseInt(a);
+        let q = parseInt(b);
+        let r = parseInt(c);
+        let s = parseInt(d);
+        let t = parseInt(e);
+         
+
+
+        if(p>q)
+        {
+            if(p>r)
+            {
+                if(p>s)
+                {
+                    if(p>t)
+                    {
+                        document.write("A is maximum !")
+                    }
+                    else 
+                    {
+                          document.write("E is maximum !")
+
+                      }
+                }
+                else
+                {
+                    if(s>t)
+                    {
+                        document.write("D is maximum !")
+                    }
+                    else{
+                        document.write("E is maximum !")
+                    }
+                }
+            }
+            else
+            {
+                if(r>s)
+                {
+                    if(r>t)
+                    {
+                    document.write("C is maximum !")
+                    }
+                    else{
+                        document.write("E is maximum !")
+
+                    }
+                }
+                else 
+                {
+                    document.write("D is maximum !")
+                }
+            }
+        }
+      
+        else 
+        {
+            if(q>r)
+            {
+                if(q>s)
+                {
+                    if(q>t)
+                    {
+                        document.write('B is maximum !')
+                    }
+                    else{
+                        document.write("E is maximum !");
+                    }
+                }
+                else
+                {
+                    if(s>t)
+                    {
+                        document.write("D is maximum !")
+                    }
+                    else{
+                        document.write("E is maximum !")
+                    }
+                    
+                }
+            }
+            else
+            {
+                if(r>s)
+                {
+                    if(r>t)
+                    {
+                    document.write("C is maximum !")
+                    }
+                    else{
+                        document.write("E is maximum !")
+
+                    }
+             }
+        }
+    }
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

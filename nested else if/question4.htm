@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--FIND THE MaxiMUM  NUMBER FROM 4 NUMBERS-->
+
+    <script>
+        let a = prompt("Enter a value of A : ");
+        let b = prompt("Enter a value of B : ");
+        let c = prompt("Enter a value of C : ");
+        let d = prompt("Enter a value of D : ");
+
+
+        let w = parseInt(a);
+        let x = parseInt(b);
+        let y = parseInt(c);
+        let z = parseInt(d);
+
+        if(w>x)
+        {
+
+            if(w>y)
+            {
+                if(w>z)
+                {
+                    document.write("A is maximum !")
+                }
+                else
+                {
+                    document.write("D is maximum !")
+                }
+            }
+            else
+            {
+                document.write("C is maximum !")
+            }
+        }
+        else
+        {
+            if(x>y)
+            {
+                if(x>z)
+                {
+                    document.write("B is maximum !")
+                }
+                else
+                {
+                    document.write("D is maximum !")
+                }
+            }
+            else
+            {
+                document.write("C is maximum !")
+            }
+        }
+
+
+    </script>
+    
+
+
+</body>
+</html>
