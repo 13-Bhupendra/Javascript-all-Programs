@@ -13,4 +13,4 @@ for(let i=0; i<=digits.length; i++)
     }
 }
 
-document.write("Ascending order :-   " + "  " + digits)
+document.write("Ascending order of the array is  :-   " + "  " + digits)
