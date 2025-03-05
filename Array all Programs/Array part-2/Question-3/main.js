@@ -9,4 +9,4 @@ for(let i=0; i<numbers.length; i++)
         minimum = numbers[i]
     }
 }
-document.write("The minimum number in :-  " +  minimum);
+document.write("The minimum number in the array is  :-  " +  minimum);
