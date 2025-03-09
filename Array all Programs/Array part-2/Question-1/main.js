@@ -8,12 +8,12 @@ for(let i=Name_is.length-1; i>=0; i--)
 
 if(reverse_name==Name_is)
 {
-    document.write(Name_is + " is a palindron name !");
+    document.write(Name_is + " is a palindrome name !");
 
 }
 else
 {
-    document.write(Name_is + " is not a palindron name !"); 
+    document.write(Name_is + " is not a palindrome name ! "); 
 }
 
  
