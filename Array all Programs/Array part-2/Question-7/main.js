@@ -1,5 +1,3 @@
-hi
-
 let array_is  = ["Virat Kohli ", " Rohit Sharma ", " Shikhar Dhawan ", " KL Rahul ", " Jasprit Bumrah ", " Rishabh Pant ", " Hardik Pandya "]
 
 document.write("Defined Array is :-  "+  array_is + " <hr><br> ")
