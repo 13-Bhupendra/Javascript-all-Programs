@@ -254,5 +254,5 @@ for(let i=0; i<json_data.length; i++)
 
     
     
-    document.write("<br><hr><br>")
+    document.write("<br><hr><hr><br>") 
 }
