@@ -61,5 +61,5 @@ btn5.addEventListener("click" , () => {
 
     h2.innerHTML = " Mod of " + first_number + " & " +  second_number + " is :-  " +  mod ;
 
-})
+});
  
